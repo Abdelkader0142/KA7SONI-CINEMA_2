@@ -23,7 +23,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace = "com.ka7soni.cinema"
+    namespace = "com.ka7soni.myap"
     compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
@@ -37,7 +37,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.ka7soni.cinema"
+        applicationId = "com.ka7soni.myap"
         minSdk = 24
         targetSdk = 33
         versionCode = flutterVersionCode.toInteger()
